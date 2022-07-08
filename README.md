@@ -2,7 +2,7 @@
 
 **Add status badges to your [Cloudflare Pages](https://pages.cloudflare.com/) projects.**
 
-This project is deployed using[ Cloudflare Workers](https://workers.cloudflare.com/), to set it up yourself, click the below button, and then add the required secrets so that the Worker can query the Cloudflare API on your behalf.
+This project is deployed using [Cloudflare Workers](https://workers.cloudflare.com/), to set it up yourself, follow the [Deployment](#deployment) section.
 
 Badges are rendered using [shields.io](https://shields.io) - it makes use of the `endpoint` functionality, all this worker does is provide a JSON response that tells shields how to render your badge.
 
