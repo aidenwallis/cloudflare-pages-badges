@@ -52,7 +52,5 @@ export async function getProject(
     project: project,
   };
 
-  console.log(project);
-
   return project;
 }
