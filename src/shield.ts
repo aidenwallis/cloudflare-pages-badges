@@ -26,7 +26,7 @@ export function createResponse(status: ProjectStageStatus): ShieldResponse {
     schemaVersion: 1,
     label: "Cloudflare Pages",
     // capitalize first letter
-    message: status.charAt(0).toUpperCase() + status.slice(1),
+    message: status,
     color: colors[status] || "grey",
     isError: errorStatuses.has(status),
     namedLogo: "cloudflare",
