@@ -14,10 +14,10 @@ export interface ShieldResponse {
 const errorStatuses = new Set<ProjectStageStatus>(["failure", "canceled"]);
 
 const colors: Record<ProjectStageStatus, string> = {
-  success: "green",
-  idle: "orange",
-  failure: "red",
-  canceled: "grey",
+  success: "success",
+  idle: "informational",
+  failure: "critical",
+  canceled: "inactive",
   active: "green",
 };
 
