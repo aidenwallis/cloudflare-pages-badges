@@ -2,6 +2,11 @@
 
 **Add status badges to your [Cloudflare Pages](https://pages.cloudflare.com/) projects.**
 
+Example:
+
+![badge](https://user-images.githubusercontent.com/899175/222077901-f16e020e-ccc4-4b70-8d0c-da3b12eed311.svg)
+
+
 This project is deployed using [Cloudflare Workers](https://workers.cloudflare.com/), to set it up yourself, follow the [Deployment](#deployment) section.
 
 Badges are rendered using [shields.io](https://shields.io) - it makes use of the `endpoint` functionality, all this worker does is provide a JSON response that tells shields how to render your badge.
