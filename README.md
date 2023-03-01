@@ -4,7 +4,7 @@
 
 Example:
 
-![badge](https://user-images.githubusercontent.com/899175/222077901-f16e020e-ccc4-4b70-8d0c-da3b12eed311.svg)
+![badge](./badge.svg)
 
 
 This project is deployed using [Cloudflare Workers](https://workers.cloudflare.com/), to set it up yourself, follow the [Deployment](#deployment) section.
